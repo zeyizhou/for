@@ -1,9 +1,28 @@
 .dates {
     font-size: large;
+    font-weight: bold;
     position:absolute;
     left:50%;
     top:50%;
     transform: translate(-50%,0 );
     color : dodgerblue;
     font-family: "Curlz MT";
+}
+
+#zwl{
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    margin: 0 auto;
+    left: 37%;
+    top: 25%;
+}
+
+#zzy{
+    position: absolute;
+    width: 13%;
+    height: 20%;
+    margin: 0 auto;
+    left: 50%;
+    top: 25%;
 }
