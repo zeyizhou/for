@@ -5,16 +5,28 @@
     <style>
         h1{
             font-family : 'Comic Sans MS', cursive, sans-serif;
-            margin:0 auto; width:400px; height:100px;
+            position:absolute;
+            left: 40%;
+            top: 40%;
         }
         button{
             font-family : 'Comic Sans MS', cursive, sans-serif;
         }
         #yes{
+            position:absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-200%,0 );
+            height: 50px;
+            width: 100px;
 
         }
         #no{
-
+            position:absolute;
+            left:50%;
+            top:50%;
+            height: 50px;
+            width: 100px;
         }
     </style>
 </head>
@@ -22,6 +34,6 @@
 <body>
     <h1>惊不惊喜？意不意外？</h1>
     <button id="yes" onclick="window.location='/phpstorm/for/dates.html'">惊喜</button>
-    <button id="no">才不</button>
+    <button id="no" onclick="alert('竟然敢点不？再给你次机会。')">才不</button>
 </body>
 </html>

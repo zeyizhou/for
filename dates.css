@@ -1,6 +1,9 @@
 .dates {
     font-size: large;
     position:absolute;
-    left:100px;
-    top:150px;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,0 );
+    color : dodgerblue;
+    font-family: "Curlz MT";
 }
