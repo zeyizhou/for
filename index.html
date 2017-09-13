@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>For You</title>
+    <script type="text/javascript">
+        var attime;
+        function getOffsetDays(time1, time2) {
+            var offsetTime = Math.abs(time1 - time2);
+            return Math.floor(offsetTime / (3600 * 24 * 1e3));
+        }
+        // 获取相隔天数
+        var iDay=getOffsetDays(Date.now(), (new Date(2017, 2, 21)).getTime());
+        var datesText="从在一起到现在已经"+iDay+"天啦！！";
+        function clock(){
+            var time=new Date();
+
+            attime= time.toLocaleString();
+            document.getElementById("clock").value = attime;
+
+        }
+        setInterval(clock,1000);
+
+
+    </script>
+</head>
+<body>
+<form>
+
+    <input type="text" id="clock" size="50"  />
+</form>
+<div >
+
+    <script>
+        document.write(datesText);
+    </script>
+</div>
+</body>
+</html>
