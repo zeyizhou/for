@@ -10,31 +10,34 @@
 <body>
 
 <div class="shutter">
-<div class="shutter-img">
 
 
-  <?php
-	$dir = 'images';  //要获取的目录
-    $ba = is_dir($dir);
+    <?php
+    echo "<div class=\"shutter-img\">";
+    echo "abcdefg";
 
-  //先判断指定的路径是不是一个文件夹
-  if (is_dir($dir)){
-  if ($dh = opendir($dir)){
-  while (($file = readdir($dh))!== false){
-    echo "$dir";
-  echo "<a href=\"#\" data-shutter-title=\"For You\"><img width=\"1000px\" height=\"1000px\" src=\"images/$file\"/></a>";
-  }
-  closedir($dh);
-  }
-  }
-  ?>
-</div>
+        //define directory
+    $dir = "../phpstorm/for/images/";
+    //open directory
+    if ($opendir = opendir($dir)){
+    //read directory
+       while(($file = readdir($opendir))!= FALSE ){
+        if($file!="." && $file!= ".."){
+            echo "<img src='$dir/$file' width='80' height='90'><br />";
+         }
+      }
+    }
+
+    echo "</div>";
+    ?>
+
+
 <ul class="shutter-btn">
   <li class="prev"></li>
   <li class="next"></li>
 </ul>
 <div class="shutter-desc">
-  <p>Iron Man</p>
+  <p>For You</p>
 </div>
 </div>
 
@@ -45,7 +48,7 @@
 $(function () {
   $('.shutter').shutter({
 	shutterW: 1000, // 容器宽度
-	shutterH: 1000, // 容器高度
+	shutterH: 358, // 容器高度
 	isAutoPlay: true, // 是否自动播放
 	playInterval: 2000, // 自动播放时间
 	curDisplay: 3, // 当前显示页
