@@ -22,7 +22,7 @@
   if ($dh = opendir($dir)){
   while (($file = readdir($dh))!== false){
     echo "$dir";
-  echo "<a href=\"#\" data-shutter-title=\"For You\"><img src=\"images/$file\"/></a>";
+  echo "<a href=\"#\" data-shutter-title=\"For You\"><img width=\"1000px\" height=\"1000px\" src=\"images/$file\"/></a>";
   }
   closedir($dh);
   }
