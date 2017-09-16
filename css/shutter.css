@@ -7,7 +7,8 @@ ul, li { list-style: none; }
   overflow: hidden;
   width: 1000px;
   height: 358px;
-  position: relative;
+  position: absolute;
+  left:200;
   margin: 50px auto;
   border-radius: 10px;
   

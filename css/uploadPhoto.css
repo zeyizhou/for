@@ -1,0 +1,11 @@
+button #backhome{
+    position:absolute;
+    top: 80%;
+    left: 50%;
+}
+
+button #backphoto{
+    position:absolute;
+    top: 80%;
+    left: 70%;
+}
