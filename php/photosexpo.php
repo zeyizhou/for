@@ -59,7 +59,7 @@ $(function () {
 });
 </script>
 <div>
-    <button id="return" onclick="window.location='../index.html'">返回主页</button>
+    <button id="return" onclick="window.location='../index.php'">返回主页</button>
     <button id="upload" onclick="window.location='../php/uploadPhoto.php'">上传照片</button>
 </div>
 
