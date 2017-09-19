@@ -13,7 +13,7 @@
 
 
     <h1>惊不惊喜？意不意外？</h1>
-    <button id="yes" onclick="window.location='htdocs/dates.html'">惊喜</button>
+    <button id="yes" onclick="window.location='htdocs/dates.php'">惊喜</button>
     <button id="no" onclick="alert('竟然敢点不？再给你次机会。')">才不</button>
 
 
