@@ -29,7 +29,7 @@
 </form>
 
 <div>
-    <button id="backhome" onclick="window.location='../index.html'">点这里回到首页</button>
+    <button id="backhome" onclick="window.location='../index.php'">点这里回到首页</button>
     <button id="backphoto" onclick="window.location='photosexpo.php'">点这里到照片墙</button>
 </div>
 
