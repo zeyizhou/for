@@ -37,8 +37,9 @@
 
 <script  src="js/rain.js"></script>
     <div class="text">惊不惊喜？意不意外？</div>
-    <button id="yes" onclick="window.location='htdocs/dates.php'">惊喜</button>
-    <button  id="no" onclick="alert('竟然敢点不？再给你次机会。')">才不</button>
-
+    <div class="btnindex">
+         <button id="yes" onclick="window.location='htdocs/dates.php'">惊喜</button>
+         <button  id="no" onclick="alert('竟然敢点不？再给你次机会。')">才不</button>
+    </div>
 </body>
 </html>

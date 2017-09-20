@@ -5,9 +5,13 @@
     top: 40%;
     font-size: 40px;
     color: #E4E4E4;
+    margin: 0 auto;
 }
 button{
     font-family : 'Comic Sans MS', cursive, sans-serif;
+}
+.btnindex{
+    margin: 0 auto;
 }
 #yes{
     position:absolute;
