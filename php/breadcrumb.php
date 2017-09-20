@@ -12,7 +12,7 @@
 <div class="dark placeholder">
 
   <div class="breadcrumb">
-    <a href="./htdocs/dates.html">主页</a><a href="./php/photosexpo.php">照片墙</a><a href="./php/messagepost.php">留言区</a><a href="#">Four</a>
+    <a href="../htdocs/dates.html">主页</a><a href="../php/photosexpo.php">照片墙</a><a href="../php/messagepost.php">留言区</a><a href="#">Four</a>
   </div>
 </div>
   <p></p>
