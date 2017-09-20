@@ -1,4 +1,4 @@
-<pre name="code" class="html"><!DOCTYPE html>
+<!DOCTYPE html>
 <?php
 
 require "conn.php";
@@ -11,7 +11,7 @@ $sql = "select * from message order by id desc";
 $result = $conn->query($sql);
 ?>
 
-<html lang="zh-cn">
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>message</title>
